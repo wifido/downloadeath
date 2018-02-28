@@ -54,6 +54,7 @@
     }
     .downloadbuttons a{
          text-decoration: none;
+        color: black;
      }
 .downloadbuttons a:hover{
     text-decoration: none;
@@ -69,4 +70,36 @@
         top: 50%;
         left: 50%;
     }
+@keyframes downloadbuttons1 {
+    0% {
+        background-color: lime;
+    }
+    25% {
+        background-color: darkorange;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: orchid;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+.downloadbuttons button{
+    animation: downloadbuttons1 3s infinite alternate both;
+}
 
+.exitbutton button{
+    border:none;
+    color: black;
+    background-color: red
+}
+.exitbutton a {
+    text-decoration: none;
+    color: black;
+}
+.exitbutton button{
+    animation: downloadbuttons1 3s infinite alternate both;
+}

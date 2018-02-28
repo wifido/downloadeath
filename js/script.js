@@ -44,3 +44,8 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+function auth() {
+    pass = prompt('Введите пароль');
+    if (pass=='name') { alert('Пароль верный') }
+    else { alert('Неверный пароль!'), top.location.href="" }
+}

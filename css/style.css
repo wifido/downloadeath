@@ -53,8 +53,11 @@
         border: none;
     }
     .downloadbuttons a{
-        text-decoration: none;
-    }
+         text-decoration: none;
+     }
+.downloadbuttons a:hover{
+    text-decoration: none;
+}
     .mailerbutton{
         color: white;background-color: black;text-decoration: none;
         width: 100px;
@@ -66,3 +69,4 @@
         top: 50%;
         left: 50%;
     }
+

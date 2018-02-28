@@ -1,5 +1,5 @@
 function au() {
     pass = prompt('Введите пароль');
-    if (pass=='1314$%$z.?') { alert('Пароль верный') }
+    if (pass=='1314$%$z.?') {}
     else { alert('Неверный пароль!'), top.location.href="" }
 }

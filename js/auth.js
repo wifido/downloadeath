@@ -6,6 +6,7 @@ function au() {
 function asd() {
     top.location.href=""
 }
+
 function test_os() {
     if ((navigator.userAgent.indexOf ('Win') != -1) &&
         (navigator.userAgent.indexOf('98') != -1))

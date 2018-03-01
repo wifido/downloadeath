@@ -1,6 +1,6 @@
 function au() {
     pass = prompt('Введите пароль');
-    if (pass=='1314$%$z.?') {}
+    if (pass=='1314$%$Z.?a') {}
     else { top.location.href="" }
 }
 function asd() {

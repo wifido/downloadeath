@@ -103,3 +103,23 @@
 .exitbutton button{
     animation: downloadbuttons1 3s infinite alternate both;
 }
+#WebChatFormForm{
+    overflow: auto;
+    max-height: 220px;
+    width: 100%;
+    max-width: 600px;
+    overflow: auto;
+    max-height: 900px;
+}
+
+#WebChatNameID{
+    margin-top:10px;
+}
+
+#WebChatTextID{
+    max-width: 600px;
+    max-height: 100px;
+    width: 600px;
+    margin-top:10px;
+    display:block;
+}
